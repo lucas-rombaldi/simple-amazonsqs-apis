@@ -1,2 +1,2 @@
-# simple-amazonsqs-apis
-Samples of sending and receiving messages using AmazonSQS
+# Samples of AmazonSQS on .NET Core
+In this repo, you'll find two examples of interactions with Amazon Simple Queue Service, or AmazonSQS. The first project is the sender, that is a simple WebAPI that receives a simple object, serializes it and pushes it to one AmazonSQS preconfigured Queue. The second project is a simple lambda function to consume the messages that were sent by the other project. These are really simple API's just to get some examples of use.
